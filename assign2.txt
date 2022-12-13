@@ -10,7 +10,7 @@ class Graph:
         queue.append(s)
         visited[s] = True
         while queue:
-            viscourse= queue.pop(0)
+            s= queue.pop(0)
             print (s,"course completed successfully")
             for i in self.graph[s]:
                 if visited[i] == False:
