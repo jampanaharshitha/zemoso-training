@@ -1,0 +1,118 @@
+.class1{
+    display: flex;
+    width: 100%;
+    padding: 10px; 
+}
+.table_item{
+    margin:5px;
+    margin-top: 1rem;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        padding: 10px;
+        border-radius: 5px;
+} 
+.table_div > div{
+    flex-basis: 100%;
+}
+.menus_box{
+    display: flex;
+    flex-direction: column;
+    border-style: hidden hidden hidden solid;
+    width:80%
+}
+.menus_box> div{
+    flex-basis: 100%;
+}
+
+.menu{
+   margin-top: 10px;
+    display:grid;   
+    grid-template-columns: repeat(auto-fit); 
+
+}
+.each_item{
+    height:90px;
+padding: 10px;
+align-items: center;
+margin: 10px;
+box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+padding: 10px;
+border-radius: 5px;
+}
+.hide{
+    display: none;
+}
+.container#blur.active{
+       filter:blur(2px);
+       pointer-events:none ;
+       user-select: none;
+}
+
+.modal{
+    /* filter: blur(2px);   */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    border: 1px solid black;
+    z-index: 10;
+    background-color: white;
+    width: 40%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+/* .modaltitle{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    color: white;
+}  */
+.modaltitle button{
+    border: none;
+    outline: none;
+    background-color:rgb(24, 140, 40) ;
+    color: whitesmoke;
+    font-size: 17px;
+    height: 23px;
+    width: 23px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+.modalbody{
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clear{
+    border: none;
+    background-color: blue;
+    outline: none;
+    cursor: pointer;
+    color:white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100px;
+
+}
+button{
+    cursor: pointer;
+    
+}
+input[type="search"]
+    { 
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 10px;
+        outline:none;
+    }
+.table_item{
+    cursor: pointer;
+}
+.each_item{
+    cursor:grabbing;
+}
