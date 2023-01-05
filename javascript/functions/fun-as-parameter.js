@@ -4,7 +4,6 @@ function function1() {
 // passing function function1() as a parameter
 function name(user, function1)
 {
-
     // accessing passed function
     const message = function1();
     console.log(`${message} ${user}`);
