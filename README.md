@@ -1,1 +1,1 @@
-applying themes to parent and child
+Applying theming and MUI to parent and child assignment.
